@@ -8,6 +8,8 @@
 # 3. 基于深度学习模型分析FRET与高内涵图像
 
 # 4. 基于FRET双杂交计算软件程序
+# 4.1 基于python numpy框架的cpu运算程序
+# 4.2 基于pytorch gpu运算程序
 
 # 5. 基于Cellpose细胞分割以及CellProfiler处理的分析模型
 ## 5.1 PCA 明场维度以及FI荧光维度、ED效率维度分析
