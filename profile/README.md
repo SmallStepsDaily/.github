@@ -1,6 +1,5 @@
 ## Hi there 👋
-这是图像处理小组代码存储仓库
-
+这是我的代码存储仓库， (个人介绍)[https://pengshi12138.github.io]
 # 1. 基于CellProfiler的传统机器学习分析明场以及荧光图像
 项目存放于[CellProfiler-ML-Model](https://github.com/College-of-Biophotonics-SCNU/CellProfiler-ML-Model)
 
