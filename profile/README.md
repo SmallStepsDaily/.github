@@ -12,7 +12,7 @@
 
 **图像的存储格式都为tif格式，16位的图像数据**
 
-# 1. 基于CellProfiler的传统机器学习分析明场以及荧光图像
+# 1. 基于CellProfiler的传统机器学习分析明场(BF)以及荧光图像(FI)算法程序
 项目存放于[CellProfiler-ML-Model](https://github.com/College-of-Biophotonics-SCNU/CellProfiler-ML-Model)
 
 # 2. 基于深度学习模型分析FRET与高内涵图像
