@@ -1,5 +1,17 @@
 ## Hi there 👋
 这是我的代码存储仓库， [pc的个人介绍](https://pengshi12138.github.io)
+
+# 图像数据输入命名规范
++ 干扰组文件夹命名名称 `{Metadata_cell}-{Metadata_treatment}-{Metadata_hour}` ，分别表示细胞系、实验组干扰、实验时间。
++ 在干扰组文件夹下，按照数字组成不同视野的图像集，名称为 `{Metadata_site}` ，值必须为整数数字类型。
++ 在不同视野的图像集下，可以存在不同类型的图像，可以是
+  - `DD、DA、AA` FRET三通道图像
+  - `Mit` 线粒体图像
+  - `BF_1` 明场图像，后面数字表示可以拍摄多张图像
+  - `Hoechst` 细胞核图像
+
+**图像的存储格式都为tif格式，16位的图像数据**
+
 # 1. 基于CellProfiler的传统机器学习分析明场以及荧光图像
 项目存放于[CellProfiler-ML-Model](https://github.com/College-of-Biophotonics-SCNU/CellProfiler-ML-Model)
 
