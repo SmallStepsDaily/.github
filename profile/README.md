@@ -2,7 +2,12 @@
 这是我的代码存储仓库， [pc的个人介绍](https://pengshi12138.github.io)
 
 # 图像数据输入命名规范
-+ 干扰组文件夹命名名称 `{Metadata_cell}-{Metadata_treatment}-{Metadata_hour}` ，分别表示细胞系、实验组干扰、实验时间。
++ 干扰组文件夹命名名称 `{Metadata_cell}-{Metadata_treatment}-{Metadata_hour}-d{Metadata_dish}-c{Metadata_concentration}`，
+  - Metadata_cell 表示细胞系，用字符表示
+  - Metadata_treatment 表示实验组干扰，用字符表示
+  - Metadata_hour 表示实验时间，用数字表示
+  - Metadata_dish 表示不同皿，用数字表示
+  - Metadata_concentration 表示对应的浓度，默认单位是`ml`
 + 在干扰组文件夹下，按照数字组成不同视野的图像集，名称为 `{Metadata_site}` ，值必须为整数数字类型。
 + 在不同视野的图像集下，可以存在不同类型的图像，可以是
   - `DD、DA、AA` FRET三通道图像
