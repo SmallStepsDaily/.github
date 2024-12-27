@@ -2,6 +2,7 @@
 这是我的代码存储仓库， [pc的个人介绍](https://pengshi12138.github.io)
 
 # 图像数据输入命名规范
+## 1.实验干扰组命名
 ![不同实验组命名规范](https://github.com/pengshi12138/image/blob/main/%E6%96%87%E4%BB%B6%E5%B9%B2%E6%89%B0%E6%89%B9%E6%AC%A1%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.jpg)
 + 如上图所示，干扰组文件夹命名名称 `{Metadata_cell}-{Metadata_treatment}-{Metadata_hour}-d{Metadata_dish}-c{Metadata_concentration}`，
   - `Metadata_cell` 表示细胞系，用字符表示
@@ -9,14 +10,22 @@
   - `Metadata_hour` 表示实验时间，用数字表示
   - `Metadata_dish` 表示不同皿，用数字表示
   - `Metadata_concentration` 表示对应的浓度，默认单位是`ml`
+## 2.视野site命名
 ![视野命名规范](https://github.com/pengshi12138/image/blob/main/%E6%96%87%E4%BB%B6%E4%B8%8D%E5%90%8C%E8%A7%86%E9%87%8E%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.jpg)
 + 如上图所示，在干扰组文件夹下，按照数字组成不同视野的图像集，名称为 `{Metadata_site}` ，值必须为整数数字类型。
+
+## 3.图像文件命名
 ![图像命名规范](https://github.com/pengshi12138/image/blob/main/%E6%96%87%E4%BB%B6%E5%9B%BE%E5%83%8F%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.jpg)
 + 如上图所示，图像命名需要符合一定规范。在不同视野的图像集下，可以存在不同类型的图像，可以是
   - `DD、DA、AA` FRET三通道图像
   - `Mit` 线粒体图像
-  - `BF_1` 明场图像，后面数字表示可以拍摄多张图像
+  - `BF_1` 明场图像，后面数字表示可以拍摄多张图像，如`BF_2`、`BF_3`
   - `Hoechst` 细胞核图像
+## 4. 正则匹配公式
+可以用于CellProfiler或者Python程序进行数据读取，所有参数需要添加前缀 `Metadata_`，如`Metadata_cell`。
+
+
+`\\(?P<cell>[\w]+)-(?P<treatment>[\S]+)-(?P<hour>[0-9]{1,2})h-d(?P<dish>[0-9]{1,2})-c(?P<concentration>.*)ml\\(?P<site>[0-9]{1,2})$`
 
 **图像的存储格式都为tif格式，16位的图像数据**
 
