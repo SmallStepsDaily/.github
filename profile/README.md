@@ -26,13 +26,6 @@
 
 # 5. 基于Cellpose和CellProfiler对于亚细胞器分割以及特征提取程序
 项目存放于[CellposeSubcellularModel](https://github.com/College-of-Biophotonics-SCNU/CellposeSubcellularModel)
-<!--
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# 6. 特征文件
+特征文件存放于[csv_data](https://github.com/SmallStepsDaily/csv_data)
