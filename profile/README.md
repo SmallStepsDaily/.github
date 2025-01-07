@@ -27,5 +27,8 @@
 # 5. 基于Cellpose和CellProfiler对于亚细胞器分割以及特征提取程序
 项目存放于[CellposeSubcellularModel](https://github.com/College-of-Biophotonics-SCNU/CellposeSubcellularModel)
 
-# 6. 特征文件
+# 6. 特征定义函数以及药效评估函数
+项目存放于[DrugEfficacyEvaluationModel](https://github.com/SmallStepsDaily/drug-efficacy-evaluation-model)
+
+# 7. 特征文件
 特征文件存放于[csv_data](https://github.com/SmallStepsDaily/csv_data)
