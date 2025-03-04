@@ -1,5 +1,7 @@
-## Hi there 👋
+## Hi 同志们好，记住 `学而不思则罔，不学不思则爽` 👋
 项目网站介绍 [SmallStepsDaily](https://smallstepsdaily.github.io/)
+
+
 这是我的代码存储仓库， [pc的个人介绍](https://pengshi12138.github.io)
 
 # 1. 基于CellProfiler的传统机器学习分析明场(BF)以及荧光图像(FI)算法程序 (不用了)
