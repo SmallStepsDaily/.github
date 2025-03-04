@@ -1,9 +1,10 @@
 ## Hi 同志们好，记住 `学而不思则罔，不学不思则爽` 👋
 项目网站介绍 [SmallStepsDaily](https://smallstepsdaily.github.io/)
 
-
 这是我的代码存储仓库， [pc的个人介绍](https://pengshi12138.github.io)
 
+# 0.项目框架
+![FRET-HCS](https://github.com/SmallStepsDaily/image/blob/main/FRET-HCS%E7%AE%97%E6%B3%95%E6%A1%86%E6%9E%B6.jpg)
 # 1. 基于CellProfiler的传统机器学习分析明场(BF)以及荧光图像(FI)算法程序 (不用了)
 项目存放于[CellProfiler-ML-Model](https://github.com/College-of-Biophotonics-SCNU/CellProfiler-ML-Model)
 
